@@ -3,7 +3,7 @@
 The aim of this project is to use both SQL and NoSQL databases.
 
 
-# INSTRUCIONS FOR sql_queries.sql
+# INSTRUCTIONS FOR sql_queries.sql
 
 Create a database called “Umuzi”
 Create the following tables:
