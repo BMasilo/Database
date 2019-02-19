@@ -99,8 +99,6 @@ SELECT SUM(Amount) FROM Payments;
 
 SELECT COUNT(Status) FROM Orders WHERE Status='Shipped';
 
-SELECT FORMAT(BuyPrice, 'C', 'en-us'), * BuyPrice FROM Products;
-
 SELECT CONCAT('$', FORMAT(AVG(BuyPrice * 12), 2)) AS 'Price In Dollars', CONCAT ('R', FORMAT(AVG(BuyPrice), 2)) AS 'Price In Rands' FROM Products;
 
 SELECT Orders.OrderId, Customers.FirstName, Customers.LastName, Customers.Email FROM Orders   INNER JOIN Customers  ON Orders.OrderId=Customers.CustomerID;
